@@ -9,8 +9,8 @@
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
   <link href="https://www.mapbox.com/base/latest/base.css" rel="stylesheet">
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.4/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.4/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.5/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.5/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/mCustomScrollbar.min.css">
@@ -252,10 +252,10 @@
 
 
     // Simple map
-    mapboxgl.accessToken = 'pk.eyJ1IjoicGxhbmVtYWQiLCJhIjoiemdYSVVLRSJ9.g3lbg_eN0kztmsfIPxa9MQ';
+    mapboxgl.accessToken = 'pk.eyJ1IjoicmFqYW5hbmQwMiIsImEiOiJjaWhvYWl0aHQwYWhtdGhqN3RwZDkyaXMyIn0.yRYy43IyBWoqCttdNrzC9Q';
     var map = new mapboxgl.Map({
       container: 'map', // container id
-      style: 'mapbox://styles/planemad/cih4qzr0w0012awltzvpie7qa', //stylesheet location
+      style: 'mapbox://styles/rajanand02/cihoblk8m00bpbqknllmyqtix', //stylesheet location
       hash: true
     });
     mapLocate("reset");
@@ -326,7 +326,7 @@
           playWithMap();
         })
         .fail(function() {
-          alert('12:20 AM: Our databse is currently facing heavy load and we are moving to a more stable setup in the morning. More details: https://github.com/osm-in/flood-map/issues/4');
+          //alert('12:20 AM: Our databse is currently facing heavy load and we are moving to a more stable setup in the morning. More details: https://github.com/osm-in/flood-map/issues/4');
         });
 
       //Live query
